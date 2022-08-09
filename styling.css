@@ -1,61 +1,12 @@
-/*.slider:before {
-  position: absolute;
-  content: "";
-  height: 30px;
-  width: 30px;
-  left: 5px;
-  bottom: 5px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
- background-color: white; 
-}
-
-input:checked + .slider::before {
- background-color: black; 
-}
-
-input:focus + .slider {
- box-shadow: 0px 0px 1px cyan; 
-}
-
-input:checked + .slider:before {
- transform: translateX(30px); 
-}
-
-.toggle {
- position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 40px;
-}*/
-
-button:before {
+/*button:before {
   background-color: black;  
 }
 
 button:after {
   background-color: white;
-}
+}*/
 
 .dark-mode {
  background-color: black;
   color: white;
 }
-
-/*.toggle input {
- opacity: 1;
-  width: 0;
-  height: 0;
-}
-
-.slider {
- position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-}*/

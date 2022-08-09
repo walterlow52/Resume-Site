@@ -1,4 +1,4 @@
-.slider:before {
+/*.slider:before {
   position: absolute;
   content: "";
   height: 30px;
@@ -31,6 +31,14 @@ input:checked + .slider:before {
   display: inline-block;
   width: 60px;
   height: 40px;
+}*/
+
+button:before {
+  background-color: black;  
+}
+
+button:after {
+  background-color: white;
 }
 
 .dark-mode {
@@ -38,7 +46,7 @@ input:checked + .slider:before {
   color: white;
 }
 
-.toggle input {
+/*.toggle input {
  opacity: 1;
   width: 0;
   height: 0;
@@ -50,4 +58,4 @@ input:checked + .slider:before {
   top: 0;
   left: 0;
   right: 0;
-}
+}*/

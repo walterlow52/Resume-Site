@@ -16,3 +16,7 @@ button:after {
   color: black;
   border: 1px solid black;
 }
+
+a {
+ font-size: 50px;
+}

@@ -3,6 +3,10 @@
   color: white;
 }
 
+h1, h2 {
+ text-align: center;
+}
+
 button:before {
   background-color: black;
   color: white;

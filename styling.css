@@ -5,7 +5,8 @@
 
 .container {
   text-align: center;
-  background-color: blue;
+  background-color: navy;
+  color: white;
 }
 
 button:before {
